@@ -113,11 +113,22 @@
     width: 86px;
 }
 .popular-item-img {
-    background-image: url(https://scontent.fvca1-1.fna.fbcdn.net/v/t39.30808-6/272886134_996816261236941_1700048097172058669_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=0debeb&_nc_ohc=a88VCJbD7iMAX-zHu1M&_nc_ht=scontent.fvca1-1.fna&oh=00_AT-5sSbhTCV8sk84Xlzz6jOpIQYyXbBf88efsJ55hBSxAA&oe=62222C19);
     background-size: cover;
     padding-top: 100%;
     border-radius: 50%;
     box-shadow: 2px 2px 18px rgba(0,0,0,0.3), -2px -2px 18px rgba(0, 0, 0, 0.02);
+}
+.popular-item-img.img1 {
+    background-image: var(--cover-image1);
+}
+.popular-item-img.img2 {
+    background-image: var(--cover-image2);
+}
+.popular-item-img.img3 {
+    background-image: var(--cover-image3);
+}
+.popular-item-img.img4 {
+    background-image: var(--cover-image4);
 }
 .popular-item-des {
     margin-left: 12px;
