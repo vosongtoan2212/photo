@@ -55,3 +55,7 @@ if (paginationListItem[numberOfPage-1].innerHTML == numberOfPage) {
     paginationListItem[numberOfPage-1].removeAttribute("href");
 }
 // Pagination
+
+var fs = require('fs');
+var files = fs.readdirSync('./assets/images/album1/');
+console.log(files)
